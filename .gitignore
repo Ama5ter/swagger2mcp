@@ -1,0 +1,50 @@
+# 构建产物
+bin/
+dist/
+build/
+*.exe
+tradedesk-api
+swagger2mcp
+
+# 临时文件和日志
+*.log
+*.tmp
+*_mcp_output.log
+*_test_output.log
+
+# 测试生成的临时目录
+/tmp/
+generated-go-tool/
+test-go-manual/
+
+# Go相关
+*.mod.bak
+*.sum.bak
+vendor/
+
+# Node.js相关
+node_modules/
+*.tsbuildinfo
+.npm
+.pnpm-debug.log*
+
+# IDE和编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+# 测试覆盖率报告
+coverage/
+*.cover
+*.prof
